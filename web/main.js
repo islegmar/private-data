@@ -19,7 +19,7 @@ function fetchJSONFile(path, callback) {
     }
   };
   httpRequest.open('GET', path, true);
-  httpRequest.setRequestHeader('content-type', 'application/json');
+  // httpRequest.setRequestHeader('content-type', 'application/json');
   httpRequest.withCredentials=true;
   httpRequest.send(); 
 }
