@@ -18,7 +18,7 @@ function fetchJSONFile(path, callback) {
       }
     }
   };
-  httpRequest.open('GET', path);
+  httpRequest.open('GET', path, true);
   httpRequest.send(); 
 }
 
